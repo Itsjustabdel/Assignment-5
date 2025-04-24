@@ -1,0 +1,19 @@
+3. 
+Align the sequences using MUSCLE
+muscle -in bats_ace2.fasta -out bats_ace2_aligned.fasta
+
+Build the phylogenetic tree using RAxML
+raxmlHPC -s bats_ace2_aligned.fasta -n bats_ace2_tree -m GTRGAMMA -p 12345
+
+
+4. 
+
+Dobsonia_viridis_ace2
+
+Cynopterus_sphinx_ace2
+
+Epomophorus_wahlbergi_ace2
+
+
+5.
+Its able to show a new relationships between bat species based on the ACE2 receptor gene. It does this by finding which species have ACE2 sequences similar to humans, and this can better help scientists in predicting which animals pose risk. Overall, its important in tracking viruses , monitoring disease, and preventing future pandemics.
